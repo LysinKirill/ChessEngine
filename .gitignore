@@ -1,0 +1,15 @@
+# Build directories
+build/
+build-*/
+out/
+cmake-build-*/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# CMake generated
+CMakeUserPresets.json
+compile_commands.json
