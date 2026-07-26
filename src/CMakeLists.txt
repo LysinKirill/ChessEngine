@@ -5,6 +5,11 @@ add_library(chess_engine STATIC
     engine.cpp
         state/board.cpp
         state/board.h
+        state/PieceType.h
+        state/PieceColor.h
+        state/Piece.h
+        state/Match.h
+        state/Move.h
 )
 
 target_include_directories(chess_engine PUBLIC
